@@ -10,16 +10,17 @@ public class Main {
 	if (number1 * number2==number3) {
 		  result= result + "*";
 		}
+    if (number2!=0){
 	if (number1 / number2==number3) {
 		  result= result + "/";
-		}		
+		}}		
 	if (result==""){
 			result="None";}
     return result;
   }
 
   public static void main(String[] args) {
-  System.out.println(mathFunction(2,2,4));
+  System.out.println(mathFunction(1,2,3));
   }
   
 }
