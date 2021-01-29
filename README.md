@@ -4,8 +4,13 @@ Write a function that takes three Integer numbers Number1, Number2, and Number3,
 For instance:
 
 public String mathFunction(1,2,3) returns "+",
+
 public String mathFunction(2,2,4) returns "+*", (+ and *)
+
 public String mathFunction(3,-3,-9) returns "*",
+
 public String mathFunction(1,2,-1) returns "-",
+
 public String mathFunction(3,3,1) returns "/",
+
 public String mathFunction(7,1,11) returns "None".
